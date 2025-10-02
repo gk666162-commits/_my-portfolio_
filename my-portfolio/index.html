@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background: #222;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #ccc;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #222;
+        }
+
+        .about {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .about img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .skills ul,
+        .education ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li,
+        .education li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .socials a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 12px;
+            border: 1px solid #a4a1a1;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background: #222;
+            color: #3b8d80;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #817979;
+            color: #428188;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> MY PORTFOLIO</h1>
+        <p>Web Developer | Programmer | Designer | Student</p>
+    </header>
+
+    <section class="about">
+        <img src="myimage.jpg" alt="myimage">
+        <div>
+            <h1>About Me</h1>
+            <p> Hello, I'm Goutam Kumar, a B.Tech Computer Science Engineering student at Mewar University. I have
+                knowledge of C programming, Microsoft Office tools (Excel, PowerPoint, Word), and Photoshop. Along with
+                technical skills, I'm working on improving my English communication to collaborate better with people.
+
+                I'm passionate about learning new things, growing my skills, and connecting with professionals in tech.
+                Always open to opportunities where I can learn, contribute, and gain real-world experience..</p>
+        </div>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor of Computer Science</strong> – MEWAR University (2025 - 2029)</li>
+            <li><strong>12th Class:</strong> 71.1% - CBSE , DAV IAPAT Senior Secondary School (2024)</li>
+            <li><strong>10th Class:</strong> 67.2% - CBSE, BISSS-9/E School (2022)</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h1>Skills</h1>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>POWER POINT World, C, </li>
+            <li> Microsoft World </li>
+            <li>English And communication</li>
+            <li> Adobe Photoshop</li>
+        </ul>
+    </section>
+
+    <section class="socials">
+        <h1>Find Me On</h1>
+        <a href="https://www.instagram.com/gautam_0241" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="mailto:gautamkumar970857@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/goutam-kumar-1a0091385" target="_blank"><i class="fab fa-linkedin"></i>
+            LinkedIn</a>
+    </section>
+    <section class="contact ">
+        <h1>Contact Number</h1>
+        <section class="contact">
+            <h1>Contact Number / WhatsApp</h1>
+            <p>
+                <i class="fa fa-phone"></i>
+                <a href="tel:+919708574801">+91 9708574801</a>
+            </p>
+            <p>
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/919708574801" target="_blank">Chat on WhatsApp</a>
+            </p>
+        </section>
+
+        <!-- Add this in <head> for Font Awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form>
+                <input type="email" placeholder=" enter email" required>
+                <input type="tel" placeholder=" enter contact number " required>
+                <textarea rows="5" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2025 GOUTAM KUMAR| All Rights Reserved</p>
+        </footer>
+</body>
+
+</html>
